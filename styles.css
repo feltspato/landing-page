@@ -1,9 +1,23 @@
-/** styling **/
+/* styling */
+
+* {
+    background-color: blanchedalmond;
+}
 
 .topic {
     text-align: center;
 }
 
+}
+
+.topic img {
+    border: black;
+}
+
 .subtopic {
     text-align: justify;
+}
+
+ul {
+    line-height: 1.3;
 }
