@@ -1,66 +1,189 @@
 * {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ── Shared backgrounds ── */
+.header,
+.hero,
+.footer {
     background-color: #1F2937;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    padding-inline: 175px;
 }
 
-
-.hero {
-    color: white;
-    font: Roboto;
-}
-
-.hero-nav {
+/* ── Header ── */
+.header {
+    padding-block: 18px;
     display: flex;
-    justify-content: space-around;
-
-}
-
-.hero-nav h4 {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.subheader {
-    display: flex;
-    gap: 10px;
-}
-
-.hero-line2 {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
     align-items: center;
 }
 
-.hero-line2 img {
-    height: 200px;
-}
-
-.hero-column2 {
-    text-wrap: pretty;
-    width: 500px;
-}
-
-.hero-column2 button {
-    background-color: #3882F6;
-    border: NONE;
+.logo {
+    margin: 0;
+    font-size: 24px;
     font-weight: bold;
-    border-radius: 10px;
     color: #F9FAF8;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
 }
 
-.hero-column2 p {
+.header-links {
+    display: flex;
+    gap: 22px;
+}
+
+/* ── Shared text styles ── */
+.header-link,
+.hero-text,
+.info-subtext,
+.footer {
     font-size: 18px;
-    color: E5E7EB;
-    width: 500px;
+    color: #E5E7EB;
+    gap: 40px;
 }
 
-.hero-column2 h1 {
+/* ── Hero ── */
+.hero {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-main {
+    margin: 0;
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    margin-bottom: 10px;
+}
+
+/* ── Buttons ── */
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    width: 130px;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+/* ── Info section ── */
+.info {
+    padding: 53px 0 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    margin: 0 0 53px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-images {
+    display: flex;
+    gap: 60px;
+}
+
+.info-image {
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.info-subtext {
+    color: #737373;
+    width: 200px;
+    text-align: center;
+}
+
+/* ── Quote ── */
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 400px;
+}
+
+.quote-text {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-author {
+    margin: 16px 33px 0;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ── Call to action ── */
+.action {
+    background-color: #3882F6;
+    margin: 100px 250px;
+    padding: 45px 100px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.action-main {
+    margin: 0;
+    font-size: 25px;
+}
+
+.action-text {
+    margin: 4px 0 0;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.action-button {
+    background-color: transparent;
+    padding: 5px 28px;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+/* ── Footer ── */
+.footer {
+    padding-block: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ── Resets ── */
+h1,
+h2,
+h3,
+p {
+    margin: 0;
 }

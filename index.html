@@ -1,36 +1,85 @@
-<!doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>odin_landing-page</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <div class="hero">
-        <div class="hero-nav">
-            <h4>Random News</h4>
-            <div class="subheader">
-                <p>Technology</p>
-                <p>Sports</p>
-                <p>Arts</p>
-            </div>
+    <div class="header">
+        <div class="logo">Random News</div>
 
+        <ul class="header-links">
+            <li><a class="header-link" href="#">Technologie</a></li>
+            <li><a class="header-link" href="#">Esports</a></li>
+            <li><a class="header-link" href="#">Culture</a></li>
+        </ul>
+    </div>
+
+    <div class="hero">
+        <div class="hero-left">
+            <h1 class="hero-main">Fresh stories. Real perspectives. Every morning.</h1>
+            <p class="hero-text">From breaking headlines to deep dives — curated by the community, for the community.
+            </p>
+            <button class="sign-up">Get involved!</button>
         </div>
-        <div class="hero-line2">
-            <div class="hero-column2">
-                <h1>Fresh daily news from people just like you.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique molestias laudantium sed illo sunt
-                    excepturi esse, fugitm? Lorem ipsum dolor</p>
-                <button>Get Involved!</button>
+        <img width="550px" height="250px"
+            src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg">
+    </div>
+
+    <div class="info">
+        <h2 class="info-title">Latest developments</h2>
+        <div class="info-images">
+            <div>
+                <img class="info-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLrv8Uf-4qcy-Z5rrHSeAmzOBDSmRCrURBDg&s"
+                    width="200px" height="200px">
+                <p class="info-subtext">Man Spends 3 Hours Customizing VS Code Instead of Writing Any Code</p>
             </div>
-            <img src="images/100917MW.jpg" alt="">
+            <div>
+                <img class="info-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLrv8Uf-4qcy-Z5rrHSeAmzOBDSmRCrURBDg&s"
+                    width="200px" height="200px">
+                <p class="info-subtext">Local Dev Swears This Is the Last CSS Tutorial Before Starting the Project</p>
+            </div>
+            <div>
+                <img class="info-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLrv8Uf-4qcy-Z5rrHSeAmzOBDSmRCrURBDg&s"
+                    width="200px" height="200px">
+                <p class="info-subtext">Study Confirms: 97% of Stack Overflow Answers Slightly Wrong for Your Specific
+                    Case</p>
+            </div>
+            <div>
+                <img class="info-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLrv8Uf-4qcy-Z5rrHSeAmzOBDSmRCrURBDg&s"
+                    width="200px" height="200px">
+                <p class="info-subtext">Area Man Commits Code at 2AM, Blames 'Flow State'</p>
+            </div>
         </div>
     </div>
 
+    <div class="quote">
+        <p class="quote-text"><em>"We fact-check everything. Except the stuff we don't. But we feel really good about
+                it."</em></p>
+        <p class="quote-author">-Random guy, sitting at a corner.</p>
+    </div>
 
+    <div class="action">
+        <div>
+            <h3 class="action-main">Don't Just Read the News — Be Insufferably Informed About It</h3>
+            <p class="action-text">Join 47,000 readers who now confidently say <em>'well, ackshually'</em> at
+                parties!</p>
+        </div>
+        <button class="action-button">Sign up</button>
+    </div>
+
+    <div class="footer">
+        <p><em><strong>Copyright &copy The Odin Project 2026<strong><em></p>
+    </div>
 </body>
 
 </html>
