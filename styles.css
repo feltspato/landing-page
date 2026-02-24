@@ -1,33 +1,66 @@
 * {
-    background-color: blanchedalmond;
-    box-sizing: border-box;
+    background-color: #1F2937;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.topic {
-    padding: 10px;
-    text-align: center;
+
+.hero {
+    color: white;
+    font: Roboto;
+}
+
+.hero-nav {
+    display: flex;
+    justify-content: space-around;
 
 }
 
-.topic img {
-    border: 2px solid black;
+.hero-nav h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.subheader {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-line2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.hero-line2 img {
+    height: 200px;
+}
+
+.hero-column2 {
+    text-wrap: pretty;
+    width: 500px;
+}
+
+.hero-column2 button {
+    background-color: #3882F6;
+    border: NONE;
+    font-weight: bold;
     border-radius: 10px;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
-.subtopic {
-    text-align: justify;
-    margin: 20px;
-    padding: 10px;
-    text-decoration: underline;
+.hero-column2 p {
+    font-size: 18px;
+    color: E5E7EB;
+    width: 500px;
 }
 
-ul {
-    line-height: 1.3;
-}
-
-.main {
-    height: 1000px;
-    padding: 15px;
-    border: 2px solid black;
-
+.hero-column2 h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
